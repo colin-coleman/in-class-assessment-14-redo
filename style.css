@@ -28,6 +28,7 @@ main{
    display: grid;
   grid-template-columns: repeat(2, 300px);
   gap: 40px;
+  margin: 40px 0;
   justify-content: center;
   padding: 2rem;
 }
@@ -52,6 +53,9 @@ img {
 
 .cat {
   box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .bio {
@@ -69,6 +73,7 @@ img {
   text-transform: uppercase;
   text-align: left;
   padding: 10px;
+  font-weight: 600
 }
 
 .ranking{
@@ -77,3 +82,12 @@ img {
     padding: 5px 10px 5px;
 }
 
+/*.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 2px solid #eee;
+  padding: 1rem;
+  overflow: hidden;
+}*/
