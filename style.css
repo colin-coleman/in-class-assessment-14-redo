@@ -63,3 +63,17 @@ img {
   border-top: 1px solid #9656a1;    
 }
 
+.cat h2{
+  color: #9656a1;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 10px;
+}
+
+.ranking{
+    display: block;
+    font-size: 18px;
+    padding: 5px 10px 5px;
+}
+
