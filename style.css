@@ -20,8 +20,8 @@ header, footer{
   min-width: 500px;
   height: 50px;
   padding: 15px 0 30px 0;
-  background-color: #ffc0ad;
-  color: #FFFFFF;
+  background-color: #55423d;
+  color: white;
 }
 
 main{
@@ -68,7 +68,7 @@ img {
 }
 
 .cat h2{
-  color: #9656a1;
+  color: #ffc0ad;
   font-size: 20px;
   text-transform: uppercase;
   text-align: left;
